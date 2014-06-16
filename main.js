@@ -8,4 +8,10 @@ function message(){
   document.write("<h1 style='color: green;'>Welcome World");
   */
   }
+};
+
+function today(){
+  var x ="bar";
+  var y = 1;
+  document.write("<h1>" + x + y + "</h1>");
 }
