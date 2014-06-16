@@ -28,7 +28,7 @@ function tOrF(){
 
 function conditionalOperator(){
   var name = "junpei";
-  var firstName;
-  firstName=(name=="junpei")?"taneichi":"other"
+  var familyName;
+  familyName=(name=="junpei")?"taneichi":"other"
   document.write(firstName);
 };
