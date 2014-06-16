@@ -53,3 +53,10 @@ function my_confirm(){
     alert("you are ready...")
   }
 };
+
+function my_prompt(){
+  var name =prompt("press your name", "junpei");
+  if(name != null && name != " "){
+    alert("hello" + name + "!");
+  }
+};
