@@ -25,3 +25,10 @@ function tOrF(){
     document.write("<div style='color: red;'>厳しい真偽判定</div>");
   }
 };
+
+function conditionalOperator(){
+  var name = "junpei";
+  var firstName;
+  firstName=(name=="junpei")?"taneichi":"other"
+  document.write(firstName);
+};
