@@ -40,3 +40,16 @@ function now(){
   document.write("<div>"+time+"</div>");
   document.write(minutes);
 }
+
+function my_alert(){
+  alert("danger!!!!");
+};
+
+function my_confirm(){
+  var r=confirm("are you ok?");
+  if(r==true){
+    alert("you are OK!");
+  }else{
+    alert("you are ready...")
+  }
+};
