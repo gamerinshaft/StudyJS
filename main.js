@@ -14,4 +14,14 @@ function today(){
   var x ="bar";
   var y = 1;
   document.write("<h1>" + x + y + "</h1>");
-}
+};
+
+function tOrF(){
+  var x = 5;
+  if(x =="5"){
+    document.write("<div style='color: blue;'>ゆるい真偽判定</div>");
+  }
+  if(x !== "5"){
+    document.write("<div style='color: red;'>厳しい真偽判定</div>");
+  }
+};
