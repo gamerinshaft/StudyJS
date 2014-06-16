@@ -32,3 +32,11 @@ function conditionalOperator(){
   familyName=(name=="junpei")?"taneichi":"other"
   document.write(familyName);
 };
+
+function now(){
+  var d = new Date();
+  var time = d.getHours();
+  var minutes = d.getMinutes();
+  document.write("<div>"+time+"</div>");
+  document.write(minutes);
+}
