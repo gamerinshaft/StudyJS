@@ -68,3 +68,9 @@ function plus(x,y){
   // alert(x+y);
   document.write(x+y);
 };
+
+function my_loop(){
+  for(i=0;i<10;i++){
+    document.write(i+"<br>");
+  }
+};
