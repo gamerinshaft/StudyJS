@@ -39,7 +39,7 @@ function now(){
   var minutes = d.getMinutes();
   document.write("<div>"+time+"</div>");
   document.write(minutes);
-}
+};
 
 function my_alert(){
   alert("danger!!!!");
@@ -56,7 +56,15 @@ function my_confirm(){
 
 function my_prompt(){
   var name =prompt("press your name", "junpei");
-  if(name != null && name != " "){
+  if(name != null && name != ""){
     alert("hello" + name + "!");
+  }else{
+
   }
+};
+
+
+function plus(x,y){
+  // alert(x+y);
+  document.write(x+y);
 };
