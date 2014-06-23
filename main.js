@@ -9,7 +9,7 @@ function message(){
 };
 
 function today(){
-  var x ="bar";
+  var x = "bar";
   var y = 1;
   document.write("<h1>" + x + y + "</h1>");
 };
