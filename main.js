@@ -18,7 +18,7 @@ function today(){
 
 function tOrF(){
   var x = 5;
-  if(x =="5"){
+  if(x == "5"){
     document.write("<div style='color: blue;'>ゆるい真偽判定</div>");
   }
   if(x !== "5"){
@@ -37,7 +37,7 @@ function now(){
   var d = new Date();
   var time = d.getHours();
   var minutes = d.getMinutes();
-  document.write("<div>"+time+"</div>");
+  document.write("<div>" + time + "</div>");
   document.write(minutes);
 };
 
@@ -46,8 +46,8 @@ function my_alert(){
 };
 
 function my_confirm(){
-  var r=window.confirm("are you ok?");
-  if(r==true){
+  var r = window.confirm("are you ok?");
+  if(r == true){
     window.alert("you are OK!");
   }else{
     window.alert("you are ready...")
@@ -55,7 +55,7 @@ function my_confirm(){
 };
 
 function my_prompt(){
-  var name =window.prompt("press your name", "junpei");
+  var name = window.prompt("press your name", "junpei");
   if(name != null && name != ""){
     window.alert("hello" + name + "!");
   }else{
@@ -66,11 +66,11 @@ function my_prompt(){
 
 function plus(x,y){
   // alert(x+y);
-  document.write(x+y);
+  document.write(x + y);
 };
 
 function my_loop(){
-  for(i=0;i<10;i++){
-    document.write(i+"<br>");
+  for(i = 0; i < 10; i++){
+    document.write(i + "<br>");
   }
 };
