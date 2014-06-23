@@ -42,22 +42,22 @@ function now(){
 };
 
 function my_alert(){
-  alert("danger!!!!");
+  window.alert("danger!!!!");
 };
 
 function my_confirm(){
-  var r=confirm("are you ok?");
+  var r=window.confirm("are you ok?");
   if(r==true){
-    alert("you are OK!");
+    window.alert("you are OK!");
   }else{
-    alert("you are ready...")
+    window.alert("you are ready...")
   }
 };
 
 function my_prompt(){
-  var name =prompt("press your name", "junpei");
+  var name =window.prompt("press your name", "junpei");
   if(name != null && name != ""){
-    alert("hello" + name + "!");
+    window.alert("hello" + name + "!");
   }else{
 
   }
