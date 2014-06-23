@@ -61,7 +61,6 @@ function my_prompt(){
   }
 };
 
-
 function plus(x, y){
   // alert(x+y);
   document.write(x + y);
