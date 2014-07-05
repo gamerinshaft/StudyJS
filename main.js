@@ -1,76 +1,73 @@
 function message(){
-  {
-  document.write("<h1 style='color: red;'>Welcome World"); //行末にもコメントできるよ
+  return "<h1 style='color: red;'>Welcome World"; //行末にもコメントできるよ
   //コメントできるよ
   /*
   複数行も出来るよ
   document.write("<h1 style='color: blue;'>Welcome World");
   document.write("<h1 style='color: green;'>Welcome World");
   */
-  }
 };
 
 function today(){
-  var x ="bar";
+  var x = "bar";
   var y = 1;
-  document.write("<h1>" + x + y + "</h1>");
+  return "<h1>" + x + y + "</h1>";
 };
 
 function tOrF(){
   var x = 5;
-  if(x =="5"){
-    document.write("<div style='color: blue;'>ゆるい真偽判定</div>");
+  if(x == "5"){
+    return "<div style='color: blue;'>ゆるい真偽判定</div>";
   }
   if(x !== "5"){
-    document.write("<div style='color: red;'>厳しい真偽判定</div>");
+    return "<div style='color: red;'>厳しい真偽判定</div>";
   }
 };
 
 function conditionalOperator(){
   var name = "junpei";
   var familyName;
-  familyName=(name=="junpei")?"taneichi":"other"
-  document.write(familyName);
+  familyName = (name == "junpei") ? "taneichi" : "other"
+  return familyName;
 };
 
 function now(){
   var d = new Date();
   var time = d.getHours();
   var minutes = d.getMinutes();
-  document.write("<div>"+time+"</div>");
+  document.write("<div>" + time + "</div>");
   document.write(minutes);
 };
 
 function my_alert(){
-  alert("danger!!!!");
+  window.alert("danger!!!!");
 };
 
 function my_confirm(){
-  var r=confirm("are you ok?");
-  if(r==true){
-    alert("you are OK!");
+  var r = window.confirm("are you ok?");
+  if(r == true){
+    window.alert("you are OK!");
   }else{
-    alert("you are ready...")
+    window.alert("you are ready...")
   }
 };
 
 function my_prompt(){
-  var name =prompt("press your name", "junpei");
+  var name = window.prompt("press your name", "junpei");
   if(name != null && name != ""){
-    alert("hello" + name + "!");
+    window.alert("hello" + name + "!");
   }else{
 
   }
 };
 
-
-function plus(x,y){
+function plus(x, y){
   // alert(x+y);
-  document.write(x+y);
+  document.write(x + y);
 };
 
 function my_loop(){
-  for(i=0;i<10;i++){
-    document.write(i+"<br>");
+  for(i = 0; i < 10; i++){
+    document.write(i + "<br>");
   }
 };
